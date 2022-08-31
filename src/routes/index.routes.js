@@ -4,12 +4,12 @@ const router = Router()
 
 
 router.get("/", (require, respond) => {
-    respond.render('index');
+    respond.render('index.hbs');
   });
 
   
 router.get("/about", (require, respond) => {
-    respond.render("about");
+    respond.render("about.hbs");
   });
 
   
